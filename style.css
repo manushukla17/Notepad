@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #f0f2f5;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+h1 {
+  color: #2c3e50;
+  margin-bottom: 20px;
+}
+input[type="text"] {
+  padding: 10px;
+  margin-bottom: 15px;
+  width: 90%;
+  max-width: 700px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+textarea {
+  width: 90%;
+  max-width: 700px;
+  height: 350px;
+  padding: 15px;
+  font-size: 1rem;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  resize: vertical;
+  margin-bottom: 15px;
+}
+.actions {
+  margin-bottom: 15px;
+}
+button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  margin: 5px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.save-btn { background-color: #4CAF50; color: white; }
+.clear-btn { background-color: #f44336; color: white; }
+.download-btn { background-color: #2196F3; color: white; }
+.status {
+  margin-top: 10px;
+  color: green;
+  font-weight: 500;
+}

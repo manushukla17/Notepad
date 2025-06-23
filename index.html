@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Advanced Notepad</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <h1>📝 Notepad</h1>
+
+  <input type="text" id="fileName" placeholder="Enter file name (used for download)" />
+
+  <textarea id="notepad" placeholder="Start typing your notes here..."></textarea>
+
+  <div class="actions">
+    <button class="save-btn" onclick="saveNote()">💾 Save</button>
+    <button class="clear-btn" onclick="clearNote()">🗑 Clear</button>
+    <button class="download-btn" onclick="downloadNote()">⬇️ Download as .txt</button>
+  </div>
+
+  <div class="status" id="status"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
